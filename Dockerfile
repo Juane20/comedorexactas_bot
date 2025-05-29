@@ -17,7 +17,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Copiamos el jar generado en la etapa de build
-COPY --from=build /app/target/telegram-bot-1.0-SNAPSHOT-with-dependencies.jar app.jar
+COPY --from=build /app/target/telegram-bot-1.0-SNAPSHOT-jar-with-dependencies.jar app.jar
 
 # Definimos la variable de entorno para el token (podés setearla en Render también)
 ENV TELEGRAM_BOT_TOKEN=7336576655:AAFub-EA7jcI07YYNN5Yb2hmzFvB4uYc_4o
