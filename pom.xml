@@ -37,7 +37,7 @@
         </descriptorRefs>
         <archive>
           <manifest>
-            <mainClass>com.ejemplo.telegrambot.Main</mainClass>
+            <mainClass>com.comedor.telegrambot.Main</mainClass>
           </manifest>
         </archive>
       </configuration>
