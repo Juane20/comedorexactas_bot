@@ -10,7 +10,8 @@ public class Main {
             botsApi.registerBot(new Bot());
             System.out.println("Bot iniciado correctamente.");
         } catch (Exception e) {
+            System.err.println("Error al obtener eventos: " + e.getMessage());
             e.printStackTrace();
         }
-    }
+    }   
 }
